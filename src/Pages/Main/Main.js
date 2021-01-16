@@ -20,7 +20,7 @@ export default function Main() {
   };
 
   useEffect(() => {
-    fetchData;
+    fetchData();
   }, []);
   return <Container></Container>;
 }
