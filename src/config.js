@@ -1,2 +1,2 @@
-const API = "https://world.openfoodfacts.org";
-export const mainAPI = `${API}`;
+const API = "https://accounts.spotify.com";
+export const authorizeAPI = `${API}/authorize`;

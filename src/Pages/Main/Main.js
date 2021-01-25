@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { mainAPI } from "../../config";
+import { authorizeAPI } from "../../config";
 
 export default function Main() {
   const [data, setData] = useState({});
 
   const fetchData = async () => {
     try {
-      const rawData = await fetch(`${mainAPI}`, {
+      const rawData = await fetch(`${authorizeAPI}`, {
         method: "get",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
       });

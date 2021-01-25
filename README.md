@@ -1,8 +1,8 @@
-# Open Food Facts (Personal Project)
+# My React Spotify (Personal Project)
 
 ## 소개
 
-Open Food Facts open api를 통해 식료품 정보를 쉽게 알 수 있는 웹사이트
+React로 구현한 나만의 Spotify
 
 ## 나의 목표
 
